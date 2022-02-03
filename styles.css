@@ -140,6 +140,10 @@ p {
   .cancel {
     font-size: 5px;
   }
-  .body {
+  body {
     font-size: 0.8em;
 }
+  @media screen and (max-width: 300px) {
+  body {
+    font-size: 0.8em;
+  }
